@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recruitment Solution - Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* CSS styles here */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&family=Poppins:wght@300;400;500;700&display=swap');
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'poppins';
+    }
+    .footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 14px;
+  color: #70757a;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #70757a;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-buttons {
+  margin-bottom: 20px;
+}
+
+.footer-button {
+  background-color: #fff;
+  border: 1px solid #70757a;
+  color: #70757a;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+
+.footer-button:hover {
+  background-color: #70757a;
+  color: #fff;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-country {
+  margin-right: 10px;
+}
+
+.footer-language {
+  display: flex;
+  align-items: center;
+}
+
+.footer-language-label {
+  margin-right: 5px;
+}
+
+.footer-language-link {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.footer-language-link:hover {
+  text-decoration: underline;
+}
+
+    
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .navbar h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .navbar button {
+      background-color: transparent;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    
+    .navbar button:hover {
+      color: #f00;
+    }
+    
+    .section {
+      padding: 100px 0;
+      
+      color: #333;
+      font-size: 18px;
+      text-align: center;
+    }
+    
+    .section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    
+    .section p {
+      margin-bottom: 40px;
+    }
+    .section1 {
+      padding: 100px 0;
+      background-color: #f1f1f1;
+      color: #fff;
+      font-size: 18px;
+      background-image: url('https://www.ucalgary.ca/live-uc-ucalgary-site/sites/default/files/styles/ucws_hero_cta_large_desktop/public/2022-08/AdobeStock_276268861.jpeg?itok=AFbdeArN');
+      text-align: center;
+      height: 50vh;
+    }
+    
+    .section1 h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    
+    .section1 p {
+      margin-bottom: 40px;
+    }
+    
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .feature {
+      width: 300px;
+      padding: 20px;
+      margin: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .feature h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .feature p {
+      margin-bottom: 20px;
+    }
+    
+    
+    .cta {
+      
+      color: #000;
+      bottom: 0;
+      text-align: center;
+      
+    }
+    
+    .cta h2 {
+      font-size: 24px;
+      margin-bottom: 18px;
+    }
+    
+    .cta p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    
+    .cta button {
+      background-color: #f00;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .cta button:hover {
+      background-color: #d60000;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h1>Recruitment Solution</h1>
+    <div>
+        <a href="/login.html">
+      <button>Sign In</button></a>
+      <a href="/signup.html">
+      <button>Sign Up</button></a>
+
+    </div>
+  </div>
+  
+  <div class="section1">
+    <h2>Find the Best Candidates for Your Company</h2>
+    <p>Our recruitment solution helps you streamline the hiring process and find top talent to grow your team.</p>
+  </div>
+  
+  <div class="section">
+    <h2>Efficient and Effective Recruitment</h2>
+    <p>With our advanced search and filtering capabilities, you can quickly find candidates that match your requirements and qualifications.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Intelligent Search</h3>
+        <p>Utilize our intelligent search algorithms to find candidates based on job roles, skills, and experience.</p>
+      </div>
+      <div class="feature">
+        <h3>Advanced Filtering</h3>
+        <p>Narrow down your search results with advanced filtering options, including location, education, and more.</p>
+      </div>
+      <div class="feature">
+        <h3>Easy Communication</h3>
+        <p>Seamlessly connect with candidates through our integrated messaging system to schedule interviews and discuss job opportunities.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section">
+    <h2>Streamlined Hiring Process</h2>
+    <p>Our platform simplifies the hiring process, saving you time and effort in finding and evaluating candidates.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Resume Management</h3>
+        <p>Effortlessly manage and organize resumes, track candidate progress, and collaborate with your hiring team.</p>
+      </div>
+      <div classclass="feature">
+        <h3>Interview Scheduling</h3>
+        <p>Schedule interviews and send automated reminders to candidates, ensuring a smooth and efficient hiring process.</p>
+      </div>
+      <div class="feature">
+        <h3>Analytics and Reporting</h3>
+        <p>Access comprehensive analytics and reporting to gain insights into your hiring process and make data-driven decisions.</p>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
+      </div>
+      <div class="footer-buttons">
+        <a href="#" class="footer-button">Advertising</a>
+        <a href="#" class="footer-button">Business</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-language">
+        <span class="footer-language-label">All rights reserved</span>
+      </div>
+      <div>
+    </div>
+
+    </div>
+
+  </footer>
+  
+</body>
+</html>

@@ -1,0 +1,111 @@
+/* CSS styles for index.html and mylist.html */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-left .company-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-right .nav-link {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .employee-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card:hover {
+    background-color: #e1e1e1;
+  }
+  .search-bar {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card.selected {
+    border: 2px solid blue;
+    background-color: red;
+  }
+  .searchBtn {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  .select-btn{
+    padding: 7px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .card-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-job-role {
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  

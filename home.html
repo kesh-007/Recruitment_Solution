@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <span class="company-name">Recruitment Solution
+      </span>
+    </div>
+    <div class="navbar-right">
+      <a href="mylist.html" class="nav-link">My List</a>
+    </div>
+  </nav>
+
+  <div class="search-bar">
+    <input type="text" id="locationInput" placeholder="Search by location">
+    <input type="text" id="jobRoleInput" placeholder="Search by job role">
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <main class="employee-cards">
+    <div class="card" data-id="1">
+      <h3 class="card-name">ABC</h3>
+      <p class="card-job-role">Software Engineer</p>
+      <p class="card-location">Chennai</p>
+      <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper justo nunc, sed pulvinar magna posuere eu.</p>
+      <button class="select-btn">Select</button>
+    </div>
+    <div class="card" data-id="2">
+      <h3 class="card-name">DBC</h3>
+      <p class="card-job-role">UI/UX Designer</p>
+      <p class="card-location">Tiruvallur</p>
+      <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper justo nunc, sed pulvinar magna posuere eu.</p>
+      <button class="select-btn">Select</button>
+    </div>
+    <!-- Add more employee cards as needed -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
